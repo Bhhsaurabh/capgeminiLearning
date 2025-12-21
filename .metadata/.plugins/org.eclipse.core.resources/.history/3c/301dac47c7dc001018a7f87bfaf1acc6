@@ -1,9 +1,0 @@
-package Operator;
-
-public class IsTwoDigPos {
-	public static void main(String [] args) {
-		int num = 12;
-		boolean isTwo =  num >= 10 && num <= 99 ? true : false;
-		System.out.println("Is Two Dig :" + isTwo);
-	}
-}
