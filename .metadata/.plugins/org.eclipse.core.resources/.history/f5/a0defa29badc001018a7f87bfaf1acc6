@@ -1,0 +1,9 @@
+package Operator;
+
+public class EvenOdd {
+	public static void main(String[] args) {
+		int num = 10;
+		boolean isEv = num % 2 == 0 ? true : false;
+		System.out.println("is Even : " +  isEv);
+	}
+}

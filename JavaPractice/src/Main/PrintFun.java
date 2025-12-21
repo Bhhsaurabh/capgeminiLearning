@@ -1,0 +1,11 @@
+package Main;
+
+public class PrintFun {
+	public static void main(String[] args) {
+		System.out.println("My");
+		System.out.println(" ");
+		System.out.println("Name : Saurabh");
+		System.out.println("age: 22");
+		System.out.println();
+	}
+}

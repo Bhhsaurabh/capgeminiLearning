@@ -1,0 +1,3 @@
+# Eclipse workspace files (DO NOT COMMIT) .metadata/ .recommenders/ # Java build files bin/ target/ 
+*.class # OS files
+.DS_Store

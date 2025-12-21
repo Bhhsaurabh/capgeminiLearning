@@ -1,0 +1,9 @@
+package Operator;
+
+public class IsDiv {
+	public static void main(String[] args) {
+		int num = 15;
+		boolean isDiv = (num % 3 == 0) && (num % 5 == 0) ? true : false;
+		System.out.println("Is Div by 3 and 5 : " + isDiv);
+	}
+}

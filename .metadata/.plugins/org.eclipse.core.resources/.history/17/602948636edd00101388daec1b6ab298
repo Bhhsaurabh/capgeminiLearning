@@ -1,0 +1,11 @@
+package OperatorsAss;
+
+public class problem1 {
+	public static void main(String[] args) {
+		int marks = 35;
+		int att = 78;
+		boolean isPas  = marks >= 40 && att >= 75 ? true : false;
+		marks = isPas  && marks <= 95 ? marks += 5 : marks;
+		System.out.println("Is Pass : " + isPas + " \nTotal Marks : " + marks);
+	}
+}

@@ -1,0 +1,22 @@
+package Variables;
+class NewNonPre{
+	String name;
+	NewNonPre(){
+		name = null;
+		
+	};
+};
+public class NonPre {
+		public static void main(String[] args) {
+			NewNonPre p;
+			System.out.println("hello");
+			
+			{
+				System.out.println("new");
+			}
+			
+		}
+		
+}
+
+

@@ -1,0 +1,15 @@
+package OperatorsAss;
+
+public class problem9 {
+	public static void main(String[] args) {
+		int unitCon = 500;
+		boolean isCom = false;
+		int ComTax = 1000;
+		int nTax = 50;
+		boolean tax = (unitCon > 300) ? true : false;
+		ComTax = isCom ? unitCon += ComTax : unitCon;
+		unitCon = tax ? unitCon += nTax : unitCon;
+		
+		System.out.println("Total Con : " + unitCon);
+	}
+}

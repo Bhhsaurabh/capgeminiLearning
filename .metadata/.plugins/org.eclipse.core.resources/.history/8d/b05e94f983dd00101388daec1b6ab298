@@ -1,0 +1,12 @@
+package OperatorsAss;
+
+public class problem7 {
+	public static void main(String[] args) {
+		int stQ = 9;
+		boolean isFastMoving = true;
+		boolean isDisCon = false;
+		boolean reorder = (stQ < 10 || (isFastMoving && isDisCon)) ? true : false;
+		stQ = reorder? stQ +=10 : stQ;
+		System.out.println("Need to reorder : " + reorder);
+	}
+}

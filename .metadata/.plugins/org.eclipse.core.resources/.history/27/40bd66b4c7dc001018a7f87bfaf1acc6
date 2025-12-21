@@ -1,0 +1,10 @@
+package Operator;
+
+public class CheckMarks {
+	public static void main(String[] args) {
+		int Overallmarks = 78;
+		int inter = 42;
+		boolean isPass = Overallmarks >= 75 && inter >= 40 ? true : false;
+		System.out.println("Is Pass : " + isPass);
+	}
+}

@@ -1,0 +1,15 @@
+package OperatorsAss;
+
+public class problem3 {
+	public static void main(String[] args) {
+		int currSalary = 30000;
+		int inc = 10000;
+		int rat = 5;
+		int exp = 2;
+		boolean inDicAction = false;
+		boolean isEli = (!inDicAction && (rat > 4 || exp >5)) ? true : false;
+		currSalary = isEli ? currSalary += inc : currSalary;
+		System.out.println("Is Eligible : " + isEli);
+		System.out.println("Curr Salary : " + currSalary);
+	}
+}
