@@ -7,8 +7,9 @@ public class problem8 {
 		boolean allowLog = false;
 		boolean isLocked = false;
 		int noOfAtt = 5;
-		int cnt = 6;
+		int cnt = 0;
 		allowLog = username.equals("Saurabh")  && pass.equals("Saurabh") ? true : false;
+		cnt++;
 		isLocked = cnt < noOfAtt ? isLocked == true : isLocked == false;
 		boolean shouldAllow = !isLocked && allowLog ? true : false;
 		

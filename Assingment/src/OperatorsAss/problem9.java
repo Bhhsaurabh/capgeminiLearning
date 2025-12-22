@@ -1,15 +1,23 @@
 package OperatorsAss;
 
 public class problem9 {
-	public static void main(String[] args) {
-		int unitCon = 500;
-		boolean isCom = false;
-		int ComTax = 1000;
-		int nTax = 50;
-		boolean tax = (unitCon > 300) ? true : false;
-		ComTax = isCom ? unitCon += ComTax : unitCon;
-		unitCon = tax ? unitCon += nTax : unitCon;
-		
-		System.out.println("Total Con : " + unitCon);
-	}
+    public static void main(String[] args) {
+
+        int unitCon = 500;
+        int perUnit = 10;
+        boolean isCom = false;
+        double comTax = 0.30;
+        double nTax = 0.10;
+        double totalAmount = unitCon * perUnit;
+
+        boolean applyTax = unitCon > 300;
+
+        totalAmount = isCom
+                ? totalAmount + (totalAmount * comTax)
+                : applyTax
+                    ? totalAmount + (totalAmount * nTax)
+                    : totalAmount;
+
+        System.out.println("Total Amount : " + totalAmount);
+    }
 }
