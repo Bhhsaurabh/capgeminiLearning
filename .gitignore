@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Eclipse specific 
 .classpath 
 .project
@@ -14,3 +15,16 @@ out/
 *.class 
 # Gradle / Maven (if any) .gradle/
 build/
+=======
+# Eclipse workspace (DO NOT COMMIT)
+.metadata/
+.recommenders/
+.settings/
+# Java build files
+bin/ 
+target/
+*.class 
+# OS files
+.DS_Store
+>>>>>>> 382e60afbba6200d87af9c8ed6a1d6fac89e5345
+.metadata/
