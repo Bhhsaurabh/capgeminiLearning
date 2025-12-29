@@ -1,0 +1,16 @@
+# Eclipse specific 
+.classpath 
+.project
+.classpath 
+.settings/ 
+bin/ 
+tmp/ 
+# MacOS files .DS_Store # Build outputs 
+target/
+out/ 
+# Logs 
+*.log 
+# Java stuff 
+*.class 
+# Gradle / Maven (if any) .gradle/
+build/
