@@ -5,5 +5,9 @@ public class OuterApp {
 		Outer.Inner.display();
 		Outer.Inner e1 = new Outer.Inner();
 		e1.test();
+		
+		Outer ot = new Outer();
+		Outer.Inner1  in = ot.new Inner1();
+		in.test();
 	}
 }

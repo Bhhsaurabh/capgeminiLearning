@@ -9,5 +9,14 @@ public class Outer {
 				System.out.println("Non-static method");
 			}
 	 }
+	 class Inner1{
+			static void display() {
+				System.out.println("Static method");
+			}
+			void test() {
+				System.out.println("Non-static method");
+			}
+	 }
+	 
 }
 
