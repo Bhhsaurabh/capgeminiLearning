@@ -1,0 +1,40 @@
+package polymorphism;
+
+class Character {
+    void attack() {
+        System.out.println("Character attacks");
+    }
+}
+
+class Warrior extends Character {
+    void attack() {
+        System.out.println("Warrior attacks with sword");
+    }
+}
+
+class Archer extends Character {
+    void attack() {
+        System.out.println("Archer attacks with arrow");
+    }
+}
+
+class Mage extends Character {
+    void attack() {
+        System.out.println("Mage attacks with magic");
+    }
+}
+
+class Game {
+    public static void main(String[] args) {
+        Character c;
+
+        c = new Warrior();
+        c.attack();
+
+        c = new Archer();
+        c.attack();
+
+        c = new Mage();
+        c.attack();
+    }
+}
